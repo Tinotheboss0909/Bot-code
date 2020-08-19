@@ -25,7 +25,7 @@ const profanity = data.curses
 const bot = new Discord.Client({disableEveryone: true});
 
 const { Client, MessageAttachment } = require('discord.js');
-client.login(process.env.TOKEN)
+client.login('PUT_YOUR_BOT_TOKEN_HERE')
 
 let prefix = "s!";
 client.on('message', async message => {
